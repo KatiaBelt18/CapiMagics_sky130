@@ -1,7 +1,0 @@
-** sch_path: /foss/designs/CapiMagics/sch/Current_limit/Current-limit.sch
-.subckt Current_limit i_SUM avdd ifwd avss
-*.PININFO avdd:B avss:B i_SUM:B ifwd:B
-M1 net1 net1 i_SUM avdd pfet_03v3 L=5.0u W=0.5u nf=1
-M2 ifwd ifwd net1 avdd pfet_03v3 L=5.0u W=0.5u nf=1
-M3 avss avss avss avss nfet_03v3 L=5.0u W=0.5u nf=1
-.ends

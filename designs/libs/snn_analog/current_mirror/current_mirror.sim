@@ -1,0 +1,89 @@
+| units: 500000 tech: sky130A format: MIT
+x B avdd B avdd s=31200,956 d=13200,466 l=100 w=400 x=2050 y=2372 sky130_fd_pr__pfet_01v8
+x B B avdd avdd s=13200,466 d=31200,956 l=100 w=400 x=2547 y=2372 sky130_fd_pr__pfet_01v8
+x B avdd B avdd s=13200,466 d=13200,466 l=100 w=400 x=2381 y=2372 sky130_fd_pr__pfet_01v8
+x B B avdd avdd s=13200,466 d=13200,466 l=100 w=400 x=2216 y=2372 sky130_fd_pr__pfet_01v8
+x A avss A avss s=31200,956 d=13200,466 l=56 w=400 x=755 y=902 sky130_fd_pr__nfet_01v8
+x A A avss avss s=13200,466 d=31200,956 l=56 w=400 x=876 y=902 sky130_fd_pr__nfet_01v8
+x A avdd A avdd s=24960,796 d=24960,796 l=100 w=320 x=794 y=2412 sky130_fd_pr__pfet_01v8
+x A avss B avss s=31200,956 d=13200,466 l=800 w=400 x=2121 y=902 sky130_fd_pr__nfet_01v8
+x A B avss avss s=13200,466 d=31200,956 l=800 w=400 x=2986 y=902 sky130_fd_pr__nfet_01v8
+C B avdd 4.7
+C A0 9.3
+R A 3547
+= A L_route_c9399605_0/m1_310_2846#
+= A M4_0/a_50_n160#
+= A L_route_948229df_0/m1_310_2193#
+= A M4_0/a_n50_n358#
+= A L_route_2a5540ed_0/m1_310_1444#
+= A M1_0/a_n33_n200#
+= A via_stack_cebb057a_1/m1_n43_n43#
+= A M2_0/a_n833_n396#
+= A L_route_582dd3d0_0/m1_1253_705#
+= A M1_0/a_n89_n396#
+= A via_stack_bd94b783_1/m1_n43_n43#
+= A straight_route_31a6f2cf_0/m1_300_1770#
+= A L_route_2fc0d58c_0/m1_310_705#
+C B0 3.8
+R B 5677
+= B straight_route_bd8d4019_0/m1_2647_2175#
+= B M3_0/a_n299_n396#
+= B c_route_b1dc4ff1_0/m1_2709_2914#
+= B via_stack_bd94b783_0/m1_n43_n43#
+= B M3_0/a_n199_n200#
+= B via_stack_cebb057a_0/m1_n43_n43#
+= B M2_0/a_n33_n200#
+= B c_route_bed4ff60_0/m1_1572_1416#
+R avss 29359
+= avss rectangle_a6a7948e_0/VSUBS
+= avss rectangle_a6a7948e_0/compass_a6a7948e_0/VSUBS
+= avss L_route_49103a41_0/VSUBS
+= avss L_route_880d3634_0/VSUBS
+= avss via_stack_327ebae8_1/VSUBS
+= avss L_route_9fcde084_0/VSUBS
+= avss L_route_9fcde084_0/li_3996_1358#
+= avss M2_0/a_n911_n200#
+= avss via_stack_bd94b783_0/VSUBS
+= avss L_route_e09c0bd2_0/VSUBS
+= avss L_route_79701bd5_0/VSUBS
+= avss straight_route_bd8d4019_0/VSUBS
+= avss c_route_b1dc4ff1_0/VSUBS
+= avss via_stack_cebb057a_0/VSUBS
+= avss M3_0/VSUBS
+= avss c_route_bed4ff60_0/VSUBS
+= avss L_route_c9399605_0/VSUBS
+= avss L_route_948229df_0/VSUBS
+= avss M4_0/VSUBS
+= avss L_route_2a5540ed_0/VSUBS
+= avss via_stack_cebb057a_1/VSUBS
+= avss via_stack_bd94b783_1/VSUBS
+= avss L_route_981217c1_0/VSUBS
+= avss L_route_981217c1_0/li_1142_1358#
+= avss M1_0/a_n167_n200#
+= avss straight_route_31a6f2cf_0/VSUBS
+= avss M2_0/a_n1125_n589#
+= avss L_route_2fc0d58c_0/VSUBS
+= avss L_route_c18bd5a5_0/VSUBS
+= avss L_route_c18bd5a5_0/m1_1910_107#
+= avss L_route_5bab8090_0/VSUBS
+= avss L_route_5bab8090_0/m1_544_107#
+= avss rectangle_a6a7948e$1_0/compass_a6a7948e$1_0/m4_n2270_n100#
+= avss via_stack_327ebae8_0/m1_n43_n43#
+= avss VSUBS
+= avss L_route_582dd3d0_0/VSUBS
+= avss rectangle_a6a7948e$1_0/VSUBS
+= avss rectangle_a6a7948e$1_0/compass_a6a7948e$1_0/VSUBS
+= avss M1_0/a_n381_n589#
+= avss via_stack_327ebae8_0/VSUBS
+C avdd0 11.2
+R avdd 22918
+= avdd rectangle_a6a7948e_0/compass_a6a7948e_0/m4_n2270_n100#
+= avdd L_route_49103a41_0/m1_609_3094#
+= avdd L_route_79701bd5_0/li_1077_2788#
+= avdd M4_0/a_n128_n160#
+= avdd M4_0/w_n388_n595#
+= avdd L_route_880d3634_0/m1_1865_3134#
+= avdd via_stack_327ebae8_1/m1_n43_n43#
+= avdd M3_0/w_n637_n635#
+= avdd L_route_e09c0bd2_0/li_2831_2828#
+= avdd M3_0/a_n377_n200#
