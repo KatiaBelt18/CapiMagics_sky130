@@ -1,1 +1,0 @@
-netgen -batch lvs "encoder.spice encoder" "encoder_lvs.spice encoder" /foss/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl resultadoslvs.out

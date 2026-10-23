@@ -1,4 +1,4 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {}
 V {}
@@ -6,8 +6,8 @@ S {}
 F {}
 E {}
 B 2 90 -450 890 -50 {flags=graph
-y1=0.02
-y2=3.3
+y1=0
+y2=1.8
 ypos1=0
 ypos2=2
 divy=5
@@ -29,8 +29,8 @@ node="vin_neg
 vin
 x1.a"}
 B 2 930 -450 1730 -50 {flags=graph
-y1=-3.8e-12
-y2=2.3e-07
+y1=-7.7e-12
+y2=7.1e-08
 ypos1=0
 ypos2=2
 divy=5
@@ -62,22 +62,15 @@ N 1400 -660 1530 -660 {lab=GND}
 N 1530 -660 1530 -580 {lab=GND}
 N 1400 -690 1570 -690 {lab=GND}
 N 1570 -690 1570 -580 {lab=GND}
-C {encoder.sym} 1110 -650 0 0 {name=x1}
-C {vsource.sym} 180 -770 0 0 {name=V1 value=3.3 savecurrent=false}
-C {vsource.sym} 180 -650 0 0 {name=V2 value="pwl(0 0 200u 3.3)" savecurrent=false}
-C {vsource.sym} 180 -530 0 0 {name=V3 value="pwl(0 3.3 200u 0)" savecurrent=false}
+C {vsource.sym} 180 -770 0 0 {name=V1 value=1.8 savecurrent=false}
+C {vsource.sym} 180 -650 0 0 {name=V2 value="pwl(0 0 200u 1.8)" savecurrent=false}
+C {vsource.sym} 180 -530 0 0 {name=V3 value="pwl(0 1.8 200u 0)" savecurrent=false}
 C {gnd.sym} 180 -500 0 0 {name=l5 lab=GND}
 C {gnd.sym} 180 -620 0 0 {name=l6 lab=GND}
 C {gnd.sym} 180 -740 0 0 {name=l7 lab=GND}
 C {lab_pin.sym} 180 -800 0 0 {name=p1 sig_type=std_logic lab=Vdd}
 C {lab_pin.sym} 180 -680 0 0 {name=p2 sig_type=std_logic lab=Vin}
 C {lab_pin.sym} 180 -560 0 0 {name=p3 sig_type=std_logic lab=Vin_neg}
-C {devices/code.sym} 450 -800 0 0 {name=MODELS only_toplevel=true
-format="tcleval( @value )"
-value="
-.include $::180MCU_MODELS/design.ngspice
-.lib $::180MCU_MODELS/sm141064.ngspice typical
-"}
 C {code_shown.sym} 580 -790 0 0 {name=spice only_toplevel=false value=".tran 0.1u 200u
 .control
  save all
@@ -88,11 +81,6 @@ C {lab_pin.sym} 1110 -720 0 0 {name=p4 sig_type=std_logic lab=Vdd}
 C {lab_pin.sym} 990 -670 0 0 {name=p5 sig_type=std_logic lab=Vin}
 C {lab_pin.sym} 990 -620 0 0 {name=p6 sig_type=std_logic lab=Vin_neg}
 C {gnd.sym} 1110 -570 0 0 {name=l1 lab=GND}
-C {res.sym} 1370 -690 1 0 {name=R1
-value=1k
-footprint=1206
-device=resistor
-m=1}
 C {res.sym} 1370 -660 1 0 {name=R2
 value=1k
 footprint=1206
@@ -116,3 +104,17 @@ C {ammeter.sym} 1260 -600 3 0 {name=Vmeas3 savecurrent=true spice_ignore=0}
 C {gnd.sym} 1480 -580 0 0 {name=l3 lab=GND}
 C {gnd.sym} 1530 -580 0 0 {name=l4 lab=GND}
 C {gnd.sym} 1570 -580 0 0 {name=l8 lab=GND}
+C {libs/snn_analog/encoder/sch/encoder.sym} 1110 -650 0 0 {name=x1}
+C {res.sym} 1370 -690 1 0 {name=R1
+value=1k
+footprint=1206
+device=resistor
+m=1}
+C {scripts/sky130_models.tcl} 1170 -950 0 0 {}
+C {sky130_fd_pr/corner.sym} 400 -780 0 0 {name=CORNER only_toplevel=false corner=tt}
+C {devices/launcher.sym} 660 -560 0 0 {name=h17 
+descr="Load waves" 
+tclcommand="
+xschem raw_read $netlist_dir/[file tail [file rootname [xschem get current_name]]].raw tran
+"
+}

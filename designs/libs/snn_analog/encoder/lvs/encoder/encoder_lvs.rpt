@@ -33,347 +33,850 @@ Subcircuit summary:
 Circuit 1: xm5                             |Circuit 2: xm5                             
 -------------------------------------------|-------------------------------------------
 sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 4                          |Number of nets: 4                          
----------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: xm5                             |Circuit 2: xm5                             
--------------------------------------------|-------------------------------------------
-a_n186_n290#                               |a_n186_n290#                               
-a_n264_n93#                                |a_n264_n93#                                
-a_186_n93#                                 |a_186_n93#                                 
-w_n524_n528#                               |w_n524_n528#                               
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes xm5 and xm5 are equivalent.
-
-Subcircuit summary:
-Circuit 1: xm3                             |Circuit 2: xm3                             
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 4                          |Number of nets: 4                          
----------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: xm3                             |Circuit 2: xm3                             
--------------------------------------------|-------------------------------------------
-a_n33_n396#                                |a_n33_n396#                                
-a_n106_n200#                               |a_n106_n200#                               
-a_28_n200#                                 |a_28_n200#                                 
-w_n366_n635#                               |w_n366_n635#                               
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes xm3 and xm3 are equivalent.
-
-Subcircuit summary:
-Circuit 1: xm11                            |Circuit 2: xm11                            
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 4                          |Number of nets: 4                          
----------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: xm11                            |Circuit 2: xm11                            
--------------------------------------------|-------------------------------------------
-a_n33_n246#                                |a_n33_n246#                                
-a_n106_n50#                                |a_n106_n50#                                
-a_28_n50#                                  |a_28_n50#                                  
-w_n366_n485#                               |w_n366_n485#                               
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes xm11 and xm11 are equivalent.
-
-Subcircuit summary:
-Circuit 1: xm1                             |Circuit 2: xm1                             
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 4                          |Number of nets: 4                          
----------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: xm1                             |Circuit 2: xm1                             
--------------------------------------------|-------------------------------------------
-a_n1000_n246#                              |a_n1000_n246#                              
-a_n1078_n50#                               |a_n1078_n50#                               
-a_1000_n50#                                |a_1000_n50#                                
-a_n1292_n439#                              |a_n1292_n439#                              
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes xm1 and xm1 are equivalent.
-
-Subcircuit summary:
-Circuit 1: xm8                             |Circuit 2: xm8                             
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 4                          |Number of nets: 4                          
----------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: xm8                             |Circuit 2: xm8                             
--------------------------------------------|-------------------------------------------
-a_n186_n290#                               |a_n186_n290#                               
-a_n264_n93#                                |a_n264_n93#                                
-a_186_n93#                                 |a_186_n93#                                 
-w_n524_n528#                               |w_n524_n528#                               
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes xm8 and xm8 are equivalent.
-
-Subcircuit summary:
-Circuit 1: xm6                             |Circuit 2: xm6                             
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 4                          |Number of nets: 4                          
----------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: xm6                             |Circuit 2: xm6                             
--------------------------------------------|-------------------------------------------
-a_n186_n290#                               |a_n186_n290#                               
-a_n264_n93#                                |a_n264_n93#                                
-a_186_n93#                                 |a_186_n93#                                 
-w_n524_n528#                               |w_n524_n528#                               
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes xm6 and xm6 are equivalent.
-
-Subcircuit summary:
-Circuit 1: xm4                             |Circuit 2: xm4                             
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 4                          |Number of nets: 4                          
----------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: xm4                             |Circuit 2: xm4                             
--------------------------------------------|-------------------------------------------
-a_n33_n396#                                |a_n33_n396#                                
-a_n106_n200#                               |a_n106_n200#                               
-a_28_n200#                                 |a_28_n200#                                 
-w_n366_n635#                               |w_n366_n635#                               
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes xm4 and xm4 are equivalent.
-
-Subcircuit summary:
-Circuit 1: xm2                             |Circuit 2: xm2                             
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 4                          |Number of nets: 4                          
----------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: xm2                             |Circuit 2: xm2                             
--------------------------------------------|-------------------------------------------
-a_n1000_n246#                              |a_n1000_n246#                              
-a_n1078_n50#                               |a_n1078_n50#                               
-a_1000_n50#                                |a_1000_n50#                                
-a_n1292_n439#                              |a_n1292_n439#                              
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes xm2 and xm2 are equivalent.
-
-Subcircuit summary:
-Circuit 1: xm10                            |Circuit 2: xm10                            
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 4                          |Number of nets: 4                          
----------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: xm10                            |Circuit 2: xm10                            
--------------------------------------------|-------------------------------------------
-a_n33_n246#                                |a_n33_n246#                                
-a_n106_n50#                                |a_n106_n50#                                
-a_28_n50#                                  |a_28_n50#                                  
-a_n320_n439#                               |a_n320_n439#                               
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes xm10 and xm10 are equivalent.
-
-Subcircuit summary:
-Circuit 1: xm9                             |Circuit 2: xm9                             
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 4                          |Number of nets: 4                          
----------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: xm9                             |Circuit 2: xm9                             
--------------------------------------------|-------------------------------------------
-a_n33_n246#                                |a_n33_n246#                                
-a_n106_n50#                                |a_n106_n50#                                
-a_28_n50#                                  |a_28_n50#                                  
-a_n320_n439#                               |a_n320_n439#                               
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes xm9 and xm9 are equivalent.
-
-Subcircuit summary:
-Circuit 1: xm7                             |Circuit 2: xm7                             
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 4                          |Number of nets: 4                          
----------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: xm7                             |Circuit 2: xm7                             
--------------------------------------------|-------------------------------------------
-a_n186_n290#                               |a_n186_n290#                               
-a_n264_n93#                                |a_n264_n93#                                
-a_186_n93#                                 |a_186_n93#                                 
-w_n524_n528#                               |w_n524_n528#                               
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes xm7 and xm7 are equivalent.
-
-Flattening instances of xm4 in cell encoder (0) makes a better match
-Flattening instances of xm7 in cell encoder (0) makes a better match
-Flattening instances of xm11 in cell encoder (0) makes a better match
-Flattening instances of xm3 in cell encoder (0) makes a better match
-Flattening instances of xm2 in cell encoder (0) makes a better match
-Flattening instances of xm8 in cell encoder (0) makes a better match
-Flattening instances of xm9 in cell encoder (0) makes a better match
-Flattening instances of xm1 in cell encoder (0) makes a better match
-Flattening instances of xm10 in cell encoder (0) makes a better match
-Flattening instances of xm6 in cell encoder (0) makes a better match
-Flattening instances of xm5 in cell encoder (0) makes a better match
-Making another compare attempt.
-
-Class encoder (0):  Merged 1 parallel devices.
-Subcircuit summary:
-Circuit 1: encoder                         |Circuit 2: encoder                         
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (7->6)             |sky130_fd_pr__pfet_01v8 (7) **Mismatch**   
-sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)                
-Number of devices: 10 **Mismatch**         |Number of devices: 11 **Mismatch**         
-Number of nets: 11 **Mismatch**            |Number of nets: 12 **Mismatch**            
+(no matching element)                      |c (10)                                     
+Number of devices: 1 **Mismatch**          |Number of devices: 11 **Mismatch**         
+Number of nets: 4 **Mismatch**             |Number of nets: 5 **Mismatch**             
 ---------------------------------------------------------------------------------------
 NET mismatches: Class fragments follow (with fanout counts):
-Circuit 1: encoder                         |Circuit 2: encoder                         
+Circuit 1: xm5                             |Circuit 2: xm5                             
 
 ---------------------------------------------------------------------------------------
-Net: Vdd                                   |Net: Vdd                                   
-  sky130_fd_pr__pfet_01v8/(1|3) = 6        |  sky130_fd_pr__pfet_01v8/(1|3) = 7        
-  sky130_fd_pr__pfet_01v8/4 = 6            |  sky130_fd_pr__pfet_01v8/4 = 7            
-                                           |                                           
-Net: Iex_2_i                               |Net: Iex_2_i                               
+Net: a_94_n50#                             |Net: a_94_n50#                             
   sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/top = 4                                
                                            |                                           
-Net: Iex_4_i                               |Net: Iex_4_i                               
+Net: a_n172_n50#                           |Net: a_n172_n50#                           
   sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 2                             
+                                           |  c/top = 2                                
                                            |                                           
-Net: (no pins)                             |Net: Iex_1_i                               
-  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+Net: a_n94_n246#                           |Net: a_n94_n246#                           
+  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
+                                           |  c/top = 3                                
+                                           |  c/bottom = 1                             
                                            |                                           
-Net: xm3_0/a_28_n200#                      |Net: x                                     
-  sky130_fd_pr__pfet_01v8/2 = 2            |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
-  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/2 = 3            
+Net: w_n433_n485#                          |Net: w_n433_n485#                          
+  sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
+                                           |  c/bottom = 3                             
+                                           |  c/top = 1                                
                                            |                                           
-Net: xm4_0/a_28_n200#                      |Net: y                                     
-  sky130_fd_pr__pfet_01v8/2 = 3            |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
-  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/2 = 3            
-                                           |                                           
-(no matching net)                          |Net: Iex_3_i                               
-                                           |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+(no matching net)                          |Net: VSUBS                                 
+                                           |  c/bottom = 4                             
 ---------------------------------------------------------------------------------------
 DEVICE mismatches: Class fragments follow (with node fanout counts):
-Circuit 1: encoder                         |Circuit 2: encoder                         
+Circuit 1: xm5                             |Circuit 2: xm5                             
 
 ---------------------------------------------------------------------------------------
-Instance: xm5_0/sky130_fd_pr__pfet_01v8:0  |Instance: sky130_fd_pr__pfet_01v8:m3       
-  (1,3) = (12,1)                           |  (1,3) = (14,5)                           
-  2 = 4                                    |  2 = 5                                    
-  4 = 12                                   |  4 = 14                                   
+(no matching instance)                     |Instance: c:0                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
                                            |                                           
-Instance: xm3_0/sky130_fd_pr__pfet_01v8:0  |Instance: sky130_fd_pr__pfet_01v8:m4       
-  (1,3) = (12,4)                           |  (1,3) = (14,5)                           
-  2 = 4                                    |  2 = 5                                    
-  4 = 12                                   |  4 = 14                                   
+(no matching instance)                     |Instance: c:1                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
                                            |                                           
-Instance: xm6_0/sky130_fd_pr__pfet_01v8:0  |Instance: sky130_fd_pr__pfet_01v8:m5       
-  (1,3) = (12,1)                           |  (1,3) = (14,1)                           
-  2 = 5                                    |  2 = 5                                    
-  4 = 12                                   |  4 = 14                                   
+(no matching instance)                     |Instance: c:2                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
                                            |                                           
-Instance: xm4_0/sky130_fd_pr__pfet_01v8:0  |Instance: sky130_fd_pr__pfet_01v8:m7       
-  (1,3) = (12,5)                           |  (1,3) = (14,1)                           
-  2 = 5                                    |  2 = 5                                    
-  4 = 12                                   |  4 = 14                                   
+(no matching instance)                     |Instance: c:3                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
                                            |                                           
-Instance: xm7_0/sky130_fd_pr__pfet_01v8:0  |Instance: sky130_fd_pr__pfet_01v8:m6       
-  (1,3) = (12,1)                           |  (1,3) = (14,1)                           
-  2 = 5                                    |  2 = 5                                    
-  4 = 12                                   |  4 = 14                                   
+(no matching instance)                     |Instance: c:4                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
                                            |                                           
-(no matching instance)                     |Instance: sky130_fd_pr__pfet_01v8:m8       
-                                           |  (1,3) = (14,1)                           
-                                           |  2 = 5                                    
-                                           |  4 = 14                                   
+(no matching instance)                     |Instance: c:5                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
                                            |                                           
+(no matching instance)                     |Instance: c:6                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:7                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:8                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:9                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
 ---------------------------------------------------------------------------------------
 Netlists do not match.
 Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits xm5 xm5
+
+Subcircuit summary:
+Circuit 1: xm3                             |Circuit 2: xm3                             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+(no matching element)                      |c (10)                                     
+Number of devices: 1 **Mismatch**          |Number of devices: 11 **Mismatch**         
+Number of nets: 4 **Mismatch**             |Number of nets: 5 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: xm3                             |Circuit 2: xm3                             
+
+---------------------------------------------------------------------------------------
+Net: a_28_n200#                            |Net: a_28_n200#                            
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 2                             
+                                           |  c/top = 2                                
+                                           |                                           
+Net: a_n106_n200#                          |Net: a_n106_n200#                          
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 3                             
+                                           |  c/top = 1                                
+                                           |                                           
+Net: a_n33_n396#                           |Net: a_n33_n396#                           
+  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
+                                           |  c/top = 4                                
+                                           |                                           
+Net: w_n366_n635#                          |Net: w_n366_n635#                          
+  sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
+                                           |  c/top = 3                                
+                                           |  c/bottom = 1                             
+                                           |                                           
+(no matching net)                          |Net: VSUBS                                 
+                                           |  c/bottom = 4                             
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: xm3                             |Circuit 2: xm3                             
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: c:0                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:1                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:2                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:3                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:4                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:5                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:6                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:7                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:8                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:9                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits xm3 xm3
+
+Subcircuit summary:
+Circuit 1: xm11                            |Circuit 2: xm11                            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+(no matching element)                      |c (10)                                     
+Number of devices: 1 **Mismatch**          |Number of devices: 11 **Mismatch**         
+Number of nets: 4 **Mismatch**             |Number of nets: 5 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: xm11                            |Circuit 2: xm11                            
+
+---------------------------------------------------------------------------------------
+Net: a_28_n50#                             |Net: a_28_n50#                             
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 3                             
+                                           |  c/top = 1                                
+                                           |                                           
+Net: a_n106_n50#                           |Net: a_n106_n50#                           
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 2                             
+                                           |  c/top = 2                                
+                                           |                                           
+Net: a_n33_n246#                           |Net: a_n33_n246#                           
+  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
+                                           |  c/top = 4                                
+                                           |                                           
+Net: w_n366_n485#                          |Net: w_n366_n485#                          
+  sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
+                                           |  c/top = 3                                
+                                           |  c/bottom = 1                             
+                                           |                                           
+(no matching net)                          |Net: VSUBS                                 
+                                           |  c/bottom = 4                             
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: xm11                            |Circuit 2: xm11                            
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: c:0                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:1                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:2                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:3                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:4                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:5                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:6                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:7                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:8                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:9                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits xm11 xm11
+
+Subcircuit summary:
+Circuit 1: xm1                             |Circuit 2: xm1                             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+(no matching element)                      |c (6)                                      
+Number of devices: 1 **Mismatch**          |Number of devices: 7 **Mismatch**          
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: xm1                             |Circuit 2: xm1                             
+
+---------------------------------------------------------------------------------------
+Net: a_1000_n50#                           |Net: a_1000_n50#                           
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 2                             
+                                           |  c/top = 1                                
+                                           |                                           
+Net: a_n1000_n246#                         |Net: a_n1000_n246#                         
+  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
+                                           |  c/bottom = 1                             
+                                           |  c/top = 2                                
+                                           |                                           
+Net: a_n1078_n50#                          |Net: a_n1078_n50#                          
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+                                           |  c/top = 3                                
+                                           |                                           
+Net: a_n1292_n439#                         |Net: a_n1292_n439#                         
+  sky130_fd_pr__nfet_01v8/4 = 1            |  sky130_fd_pr__nfet_01v8/4 = 1            
+                                           |  c/bottom = 3                             
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: xm1                             |Circuit 2: xm1                             
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: c:0                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:1                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:2                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:3                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:4                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:5                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits xm1 xm1
+
+Subcircuit summary:
+Circuit 1: xm8                             |Circuit 2: xm8                             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+(no matching element)                      |c (10)                                     
+Number of devices: 1 **Mismatch**          |Number of devices: 11 **Mismatch**         
+Number of nets: 4 **Mismatch**             |Number of nets: 5 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: xm8                             |Circuit 2: xm8                             
+
+---------------------------------------------------------------------------------------
+Net: a_94_n50#                             |Net: a_94_n50#                             
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 3                             
+                                           |  c/top = 1                                
+                                           |                                           
+Net: a_n172_n50#                           |Net: a_n172_n50#                           
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 2                             
+                                           |  c/top = 2                                
+                                           |                                           
+Net: a_n94_n246#                           |Net: a_n94_n246#                           
+  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
+                                           |  c/top = 4                                
+                                           |                                           
+Net: w_n433_n485#                          |Net: w_n433_n485#                          
+  sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
+                                           |  c/top = 3                                
+                                           |  c/bottom = 1                             
+                                           |                                           
+(no matching net)                          |Net: VSUBS                                 
+                                           |  c/bottom = 4                             
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: xm8                             |Circuit 2: xm8                             
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: c:0                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:1                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:2                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:3                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:4                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:5                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:6                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:7                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:8                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:9                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits xm8 xm8
+
+Subcircuit summary:
+Circuit 1: xm6                             |Circuit 2: xm6                             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+(no matching element)                      |c (10)                                     
+Number of devices: 1 **Mismatch**          |Number of devices: 11 **Mismatch**         
+Number of nets: 4 **Mismatch**             |Number of nets: 5 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: xm6                             |Circuit 2: xm6                             
+
+---------------------------------------------------------------------------------------
+Net: a_94_n50#                             |Net: a_94_n50#                             
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 2                             
+                                           |  c/top = 2                                
+                                           |                                           
+Net: a_n172_n50#                           |Net: a_n172_n50#                           
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 3                             
+                                           |  c/top = 1                                
+                                           |                                           
+Net: a_n94_n246#                           |Net: a_n94_n246#                           
+  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
+                                           |  c/top = 4                                
+                                           |                                           
+Net: w_n433_n485#                          |Net: w_n433_n485#                          
+  sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
+                                           |  c/top = 3                                
+                                           |  c/bottom = 1                             
+                                           |                                           
+(no matching net)                          |Net: VSUBS                                 
+                                           |  c/bottom = 4                             
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: xm6                             |Circuit 2: xm6                             
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: c:0                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:1                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:2                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:3                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:4                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:5                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:6                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:7                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:8                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:9                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits xm6 xm6
+
+Subcircuit summary:
+Circuit 1: xm4                             |Circuit 2: xm4                             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+(no matching element)                      |c (10)                                     
+Number of devices: 1 **Mismatch**          |Number of devices: 11 **Mismatch**         
+Number of nets: 4 **Mismatch**             |Number of nets: 5 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: xm4                             |Circuit 2: xm4                             
+
+---------------------------------------------------------------------------------------
+Net: a_28_n200#                            |Net: a_28_n200#                            
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 2                             
+                                           |  c/top = 2                                
+                                           |                                           
+Net: a_n106_n200#                          |Net: a_n106_n200#                          
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 3                             
+                                           |  c/top = 1                                
+                                           |                                           
+Net: a_n33_n396#                           |Net: a_n33_n396#                           
+  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
+                                           |  c/top = 4                                
+                                           |                                           
+Net: w_n366_n635#                          |Net: w_n366_n635#                          
+  sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
+                                           |  c/top = 3                                
+                                           |  c/bottom = 1                             
+                                           |                                           
+(no matching net)                          |Net: VSUBS                                 
+                                           |  c/bottom = 4                             
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: xm4                             |Circuit 2: xm4                             
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: c:0                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:1                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:2                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:3                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:4                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:5                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:6                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:7                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:8                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:9                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits xm4 xm4
+
+Subcircuit summary:
+Circuit 1: xm2                             |Circuit 2: xm2                             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+(no matching element)                      |c (6)                                      
+Number of devices: 1 **Mismatch**          |Number of devices: 7 **Mismatch**          
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: xm2                             |Circuit 2: xm2                             
+
+---------------------------------------------------------------------------------------
+Net: a_1000_n50#                           |Net: a_1000_n50#                           
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 2                             
+                                           |  c/top = 1                                
+                                           |                                           
+Net: a_n1000_n246#                         |Net: a_n1000_n246#                         
+  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
+                                           |  c/top = 2                                
+                                           |  c/bottom = 1                             
+                                           |                                           
+Net: a_n1078_n50#                          |Net: a_n1078_n50#                          
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+                                           |  c/top = 3                                
+                                           |                                           
+Net: a_n1292_n439#                         |Net: a_n1292_n439#                         
+  sky130_fd_pr__nfet_01v8/4 = 1            |  sky130_fd_pr__nfet_01v8/4 = 1            
+                                           |  c/bottom = 3                             
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: xm2                             |Circuit 2: xm2                             
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: c:0                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:1                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:2                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:3                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:4                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:5                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits xm2 xm2
+
+Subcircuit summary:
+Circuit 1: xm10                            |Circuit 2: xm10                            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+(no matching element)                      |c (6)                                      
+Number of devices: 1 **Mismatch**          |Number of devices: 7 **Mismatch**          
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: xm10                            |Circuit 2: xm10                            
+
+---------------------------------------------------------------------------------------
+Net: a_28_n50#                             |Net: a_28_n50#                             
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 2                             
+                                           |  c/top = 1                                
+                                           |                                           
+Net: a_n33_n246#                           |Net: a_n33_n246#                           
+  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
+                                           |  c/top = 2                                
+                                           |  c/bottom = 1                             
+                                           |                                           
+Net: a_n106_n50#                           |Net: a_n106_n50#                           
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+                                           |  c/top = 3                                
+                                           |                                           
+Net: a_n320_n439#                          |Net: a_n320_n439#                          
+  sky130_fd_pr__nfet_01v8/4 = 1            |  sky130_fd_pr__nfet_01v8/4 = 1            
+                                           |  c/bottom = 3                             
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: xm10                            |Circuit 2: xm10                            
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: c:0                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:1                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:2                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:3                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:4                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:5                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits xm10 xm10
+
+Subcircuit summary:
+Circuit 1: xm9                             |Circuit 2: xm9                             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+(no matching element)                      |c (6)                                      
+Number of devices: 1 **Mismatch**          |Number of devices: 7 **Mismatch**          
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: xm9                             |Circuit 2: xm9                             
+
+---------------------------------------------------------------------------------------
+Net: a_112_n200#                           |Net: a_112_n200#                           
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 2                             
+                                           |  c/top = 1                                
+                                           |                                           
+Net: a_n112_n396#                          |Net: a_n112_n396#                          
+  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
+                                           |  c/bottom = 1                             
+                                           |  c/top = 2                                
+                                           |                                           
+Net: a_n190_n200#                          |Net: a_n190_n200#                          
+  sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
+                                           |  c/top = 3                                
+                                           |                                           
+Net: a_n404_n589#                          |Net: a_n404_n589#                          
+  sky130_fd_pr__nfet_01v8/4 = 1            |  sky130_fd_pr__nfet_01v8/4 = 1            
+                                           |  c/bottom = 3                             
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: xm9                             |Circuit 2: xm9                             
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: c:0                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:1                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:2                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:3                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:4                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:5                              
+                                           |  top = 4                                  
+                                           |  bottom = 4                               
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits xm9 xm9
+
+Subcircuit summary:
+Circuit 1: xm7                             |Circuit 2: xm7                             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+(no matching element)                      |c (10)                                     
+Number of devices: 1 **Mismatch**          |Number of devices: 11 **Mismatch**         
+Number of nets: 4 **Mismatch**             |Number of nets: 5 **Mismatch**             
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: xm7                             |Circuit 2: xm7                             
+
+---------------------------------------------------------------------------------------
+Net: a_94_n50#                             |Net: a_94_n50#                             
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 3                             
+                                           |  c/top = 1                                
+                                           |                                           
+Net: a_n172_n50#                           |Net: a_n172_n50#                           
+  sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |  c/bottom = 2                             
+                                           |  c/top = 2                                
+                                           |                                           
+Net: a_n94_n246#                           |Net: a_n94_n246#                           
+  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
+                                           |  c/top = 4                                
+                                           |                                           
+Net: w_n433_n485#                          |Net: w_n433_n485#                          
+  sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
+                                           |  c/top = 3                                
+                                           |  c/bottom = 1                             
+                                           |                                           
+(no matching net)                          |Net: VSUBS                                 
+                                           |  c/bottom = 4                             
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: xm7                             |Circuit 2: xm7                             
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: c:0                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:1                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:2                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:3                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:4                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:5                              
+                                           |  top = 5                                  
+                                           |  bottom = 5                               
+                                           |                                           
+(no matching instance)                     |Instance: c:6                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:7                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:8                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+                                           |                                           
+(no matching instance)                     |Instance: c:9                              
+                                           |  top = 5                                  
+                                           |  bottom = 4                               
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits xm7 xm7
+
+Subcircuit summary:
+Circuit 1: encoder                         |Circuit 2: encoder                         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (7)                |sky130_fd_pr__pfet_01v8 (7)                
+sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)                
+Number of devices: 11                      |Number of devices: 11                      
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
 
 Subcircuit pins:
 Circuit 1: encoder                         |Circuit 2: encoder                         
 -------------------------------------------|-------------------------------------------
-(no pins)                                  |Iex_1_i **Mismatch**                       
-(no pin, node is xm4_0/a_28_n200#)         |Vdd                                        
-(no pin, node is Vss)                      |Vss                                        
-(no pin, node is Vin_neg)                  |Vin                                        
-(no pin, node is Vin_neg)                  |Vin_neg                                    
-(no pin, node is xm4_0/a_28_n200#)         |Iex_2_i                                    
-(no pin, node is xm4_0/a_28_n200#)         |Iex_3_i                                    
-(no pin, node is xm4_0/a_28_n200#)         |Iex_4_i                                    
+Vss                                        |Vss                                        
+Vin                                        |Vin                                        
+Vin_neg                                    |Vin_neg                                    
+Iex_2_i                                    |Iex_2_i                                    
+Iex_4_i                                    |Iex_4_i                                    
+Iex_3_i                                    |Iex_3_i                                    
+Iex_1_i                                    |Iex_1_i                                    
+Vdd                                        |Vdd                                        
 ---------------------------------------------------------------------------------------
-Cell pin lists for encoder and encoder altered to match.
+Cell pin lists are equivalent.
 Device classes encoder and encoder are equivalent.
 
-Final result: Top level cell failed pin matching.
+Final result: Circuits match uniquely.
+.

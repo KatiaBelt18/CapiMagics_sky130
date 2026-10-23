@@ -1,1 +1,0 @@
-netgen -batch lvs "current_mirror.spice current_mirror" "current_mirror_sch.spice current_mirror" /foss/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl resultadoslvs.out

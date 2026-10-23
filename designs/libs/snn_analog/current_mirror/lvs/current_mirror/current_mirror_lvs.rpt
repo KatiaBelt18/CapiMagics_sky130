@@ -45,13 +45,13 @@ Circuit 1: M3                              |Circuit 2: M3
 ---------------------------------------------------------------------------------------
 Net: a_n199_n200#                          |Net: a_n199_n200#                          
   sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
-                                           |  c/bottom = 2                             
-                                           |  c/top = 2                                
+                                           |  c/bottom = 3                             
+                                           |  c/top = 1                                
                                            |                                           
 Net: a_n377_n200#                          |Net: a_n377_n200#                          
   sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
-                                           |  c/bottom = 1                             
-                                           |  c/top = 3                                
+                                           |  c/bottom = 2                             
+                                           |  c/top = 2                                
                                            |                                           
 Net: a_n299_n396#                          |Net: a_n299_n396#                          
   sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
@@ -59,8 +59,8 @@ Net: a_n299_n396#                          |Net: a_n299_n396#
                                            |                                           
 Net: w_n637_n635#                          |Net: w_n637_n635#                          
   sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
-                                           |  c/bottom = 3                             
-                                           |  c/top = 1                                
+                                           |  c/top = 3                                
+                                           |  c/bottom = 1                             
                                            |                                           
 (no matching net)                          |Net: VSUBS                                 
                                            |  c/bottom = 4                             
@@ -201,8 +201,8 @@ Net: a_n128_n160#                          |Net: a_n128_n160#
                                            |                                           
 Net: a_n50_n358#                           |Net: a_n50_n358#                           
   sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
-                                           |  c/bottom = 1                             
                                            |  c/top = 3                                
+                                           |  c/bottom = 1                             
                                            |                                           
 Net: w_n388_n595#                          |Net: w_n388_n595#                          
   sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
@@ -331,32 +331,18 @@ sky130_fd_pr__nfet_01v8 (4->2)             |sky130_fd_pr__nfet_01v8 (2)
 Number of devices: 4                       |Number of devices: 4                       
 Number of nets: 4                          |Number of nets: 4                          
 ---------------------------------------------------------------------------------------
-Netlists match uniquely with port and property errors.
-M1_0/sky130_fd_pr__nfet_01v8:0 vs. sky130_fd_pr__nfet_01v8:1:
- l circuit1: 0.28   circuit2: 2.8e-07   (delta=200%, cutoff=1%)
- w circuit1: 4   circuit2: 4e-06   (delta=200%, cutoff=1%)
-M2_0/sky130_fd_pr__nfet_01v8:0 vs. sky130_fd_pr__nfet_01v8:2:
- l circuit1: 4   circuit2: 4e-06   (delta=200%, cutoff=1%)
- w circuit1: 4   circuit2: 4e-06   (delta=200%, cutoff=1%)
-M3_0/sky130_fd_pr__pfet_01v8:0 vs. sky130_fd_pr__pfet_01v8:3:
- l circuit1: 0.5   circuit2: 5e-07   (delta=200%, cutoff=1%)
- w circuit1: 8   circuit2: 8e-06   (delta=200%, cutoff=1%)
-M4_0/sky130_fd_pr__pfet_01v8:0 vs. sky130_fd_pr__pfet_01v8:4:
- l circuit1: 0.5   circuit2: 5e-07   (delta=200%, cutoff=1%)
- w circuit1: 1.6   circuit2: 1.6e-06   (delta=200%, cutoff=1%)
+Netlists match uniquely.
 
 Subcircuit pins:
 Circuit 1: current_mirror                  |Circuit 2: current_mirror                  
 -------------------------------------------|-------------------------------------------
-(no pins)                                  |A **Mismatch**                             
-(no pin, node is avdd)                     |avdd                                       
-(no pin, node is avss)                     |avss                                       
-(no pin, node is B)                        |B                                          
+A                                          |A                                          
+B                                          |B                                          
+avss                                       |avss                                       
+avdd                                       |avdd                                       
 ---------------------------------------------------------------------------------------
-Cell pin lists for current_mirror and current_mirror altered to match.
+Cell pin lists are equivalent.
 Device classes current_mirror and current_mirror are equivalent.
 
-Final result: Top level cell failed pin matching.
-
-The following cells had property errors:
- current_mirror
+Final result: Circuits match uniquely.
+.

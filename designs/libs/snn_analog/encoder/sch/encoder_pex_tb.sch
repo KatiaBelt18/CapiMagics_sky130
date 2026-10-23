@@ -5,9 +5,9 @@ V {}
 S {}
 F {}
 E {}
-B 2 -980 230 -180 630 {flags=graph
+B 2 -1370 230 -570 630 {flags=graph
 y1=0
-y2=3.3
+y2=1.8
 ypos1=0
 ypos2=2
 divy=5
@@ -28,8 +28,8 @@ color="8 7 12"
 node="vin_neg
 vin
 x1.a"}
-B 2 -120 230 680 630 {flags=graph
-y1=-8.5e-12
+B 2 -510 230 290 630 {flags=graph
+y1=1e-13
 y2=4.4e-07
 ypos1=0
 ypos2=2
@@ -50,6 +50,30 @@ hilight_wave=1
 color="6 11"
 node="i(vmeas)
 i(vmeas2)"}
+B 2 330 230 1130 630 {flags=graph
+y1=4.9e-13
+y2=4.4e-07
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=0.0002
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=0
+hilight_wave=1
+color="6 11"
+node="i(vmeas4)
+i(vmeas6)"}
+T {encoder_pex} -140 190 0 0 0.4 0.4 {}
+T {encoder} 740 190 0 0 0.4 0.4 {}
 N 10 -220 60 -220 {lab=#net1}
 N 10 -190 60 -190 {lab=#net2}
 N 10 -160 60 -160 {lab=#net3}
@@ -106,24 +130,17 @@ C {ammeter.sym} -20 -130 3 0 {name=Vmeas3 savecurrent=true spice_ignore=0}
 C {gnd.sym} 200 -110 0 0 {name=l3 lab=GND}
 C {gnd.sym} 250 -110 0 0 {name=l4 lab=GND}
 C {gnd.sym} 290 -110 0 0 {name=l8 lab=GND}
-C {vsource.sym} -640 -110 0 0 {name=V1 value=3.3 savecurrent=false}
-C {vsource.sym} -640 10 0 0 {name=V2 value="pwl(0 0 200u 3.3)" savecurrent=false}
-C {vsource.sym} -640 130 0 0 {name=V3 value="pwl(0 3.3 200u 0)" savecurrent=false}
+C {vsource.sym} -640 -110 0 0 {name=V1 value=1.8 savecurrent=false}
+C {vsource.sym} -640 10 0 0 {name=V2 value="pwl(0 0 200u 1.8)" savecurrent=false}
+C {vsource.sym} -640 130 0 0 {name=V3 value="pwl(0 1.8 200u 0)" savecurrent=false}
 C {gnd.sym} -640 160 0 0 {name=l5 lab=GND}
 C {gnd.sym} -640 40 0 0 {name=l6 lab=GND}
 C {gnd.sym} -640 -80 0 0 {name=l7 lab=GND}
 C {lab_pin.sym} -640 -140 0 0 {name=p1 sig_type=std_logic lab=Vdd}
 C {lab_pin.sym} -640 -20 0 0 {name=p2 sig_type=std_logic lab=Vin}
 C {lab_pin.sym} -640 100 0 0 {name=p3 sig_type=std_logic lab=Vin_neg}
-C {devices/code.sym} -900 -110 0 0 {name=MODELS only_toplevel=true
-format="tcleval( @value )"
-value="
-.include $::180MCU_MODELS/design.ngspice
-.lib $::180MCU_MODELS/sm141064.ngspice typical
-.lib $::180MCU_MODELS/smbb000149.ngspice typical
-"}
 C {code_shown.sym} -920 -360 0 0 {name=spice only_toplevel=false value="
-.include /foss/designs/CapiMagics/designs/libs/snn_analog/encoder/encoder.spice 
+.include /foss/designs/libs/snn_analog/encoder/sch/encoder.spice 
 .tran 0.1u 200u
 .control
  save all
@@ -164,3 +181,4 @@ C {ammeter.sym} -10 10 3 0 {name=Vmeas4 savecurrent=true spice_ignore=0}
 C {ammeter.sym} -10 40 3 0 {name=Vmeas5 savecurrent=true spice_ignore=0}
 C {ammeter.sym} -10 70 3 0 {name=Vmeas6 savecurrent=true spice_ignore=0}
 C {ammeter.sym} -10 100 3 0 {name=Vmeas7 savecurrent=true spice_ignore=0}
+C {sky130_fd_pr/corner.sym} -940 -140 0 0 {name=CORNER only_toplevel=false corner=tt}

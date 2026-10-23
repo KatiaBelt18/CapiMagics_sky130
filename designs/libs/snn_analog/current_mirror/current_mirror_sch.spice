@@ -1,8 +1,0 @@
-** sch_path: /foss/designs/CapiMagics/sch/current_mirror/current_mirror.sch
-.subckt current_mirror avdd avss B A
-*.PININFO Avdd:B Avss:B B:B A:B
-M1 A A Avss Avss sky130_fd_pr__nfet_01v8 L=0.28u W=4u nf=1
-M2 B A Avss Avss sky130_fd_pr__nfet_01v8 L=4u W=4u nf=1
-M3 B B Avdd Avdd sky130_fd_pr__pfet_01v8 L=0.5u W=8u nf=1
-M4 A A Avdd Avdd sky130_fd_pr__pfet_01v8 L=0.5u W=1.6u nf=1
-.ends

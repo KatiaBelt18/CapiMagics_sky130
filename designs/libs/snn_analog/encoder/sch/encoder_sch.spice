@@ -1,0 +1,15 @@
+** sch_path: /foss/designs/libs/snn_analog/encoder/sch/encoder.sch
+.subckt encoder Vdd Vss Vin Vin_neg Iex_1_i Iex_2_i Iex_3_i Iex_4_i
+*.PININFO Vdd:B Vss:B Vin:I Vin_neg:I Iex_1_i:O Iex_4_i:O Iex_2_i:O Iex_3_i:O
+XM1 x Vin a Vss sky130_fd_pr__nfet_01v8 L=10 W=0.5 nf=1
+XM2 y Vin_neg a Vss sky130_fd_pr__nfet_01v8 L=10 W=0.5 nf=1
+XM3 x x Vdd Vdd sky130_fd_pr__pfet_01v8 L=0.28 W=2.0 nf=1
+XM4 y y Vdd Vdd sky130_fd_pr__pfet_01v8 L=0.28 W=2.0 nf=1
+XM5 Iex_2_i x Vdd Vdd sky130_fd_pr__pfet_01v8 L=0.94 W=0.5 nf=1
+XM6 Iex_4_i y Vdd Vdd sky130_fd_pr__pfet_01v8 L=0.94 W=0.5 nf=1
+XM7 Iex_3_i y Vdd Vdd sky130_fd_pr__pfet_01v8 L=0.94 W=0.5 nf=1
+XM8 Iex_1_i x Vdd Vdd sky130_fd_pr__pfet_01v8 L=0.94 W=0.5 nf=1
+XM9 a net1 Vss Vss sky130_fd_pr__nfet_01v8 L=1.12 W=2.0 nf=1
+XM10 net1 net1 Vss Vss sky130_fd_pr__nfet_01v8 L=0.28 W=0.5 nf=1
+XM11 net1 net1 Vdd Vdd sky130_fd_pr__pfet_01v8 L=0.28 W=0.5 nf=1
+.ends
