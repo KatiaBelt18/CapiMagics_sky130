@@ -5,16 +5,16 @@ V {}
 S {}
 F {}
 E {}
-B 2 -880 230 -80 630 {flags=graph
-y1=0
-y2=1.8
+B 2 -935 265 -135 665 {flags=graph
+y1=-0.0086
+y2=1.9
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=5e-05
-x2=0.00025
+x1=0
+x2=0.0002
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -24,74 +24,91 @@ unitx=1
 logx=0
 logy=0
 hilight_wave=1
-color="8 7 12"
-node="vin_neg
-vin
-x1.a"}
-N -340 -0 -260 0 {lab=#net1}
-N -340 20 -260 20 {lab=#net2}
-N 40 0 100 -0 {lab=#net3}
-N 40 20 100 20 {lab=#net4}
-N 40 40 70 40 {lab=#net5}
-N 70 40 70 100 {lab=#net5}
-N 70 100 260 100 {lab=#net5}
-N 260 10 260 100 {lab=#net5}
-N 230 10 260 10 {lab=#net5}
-N -640 10 -470 10 {lab=#net6}
-N -640 40 -620 40 {lab=#net7}
-N -640 70 -620 70 {lab=#net8}
-N -640 100 -620 100 {lab=#net9}
-N -560 40 -480 40 {lab=GND}
-N -480 40 -480 50 {lab=GND}
-N -560 70 -510 70 {lab=GND}
-N -510 70 -510 80 {lab=GND}
-N -560 100 -540 100 {lab=GND}
-N -540 100 -540 120 {lab=GND}
-C {libs/snn_analog/stdp/sch/stdp.sym} -110 40 0 0 {name=x1}
-C {libs/snn_analog/lif/sch/neurona.sym} -340 30 0 0 {name=x2}
-C {libs/snn_analog/lif/sch/neurona.sym} 100 30 0 1 {name=x3}
-C {libs/snn_analog/encoder/sch/encoder.sym} -760 50 0 0 {name=x4}
-C {vsource.sym} -1090 -190 0 0 {name=V1 value=1.8 savecurrent=false}
-C {vsource.sym} -1280 -200 0 0 {name=V2 value="pwl(0 0 200u 1.8)" savecurrent=false}
-C {vsource.sym} -1440 -200 0 0 {name=V3 value="pwl(0 1.8 200u 0)" savecurrent=false}
-C {gnd.sym} -1440 -170 0 0 {name=l11 lab=GND}
-C {gnd.sym} -1280 -170 0 0 {name=l12 lab=GND}
-C {lab_pin.sym} -1280 -230 0 0 {name=p2 sig_type=std_logic lab=Vin}
-C {lab_pin.sym} -1440 -230 0 0 {name=p3 sig_type=std_logic lab=Vin_neg}
-C {gnd.sym} -1090 -160 0 0 {name=l2 lab=GND}
-C {gnd.sym} -760 130 0 0 {name=l7 lab=GND}
-C {gnd.sym} -100 120 0 0 {name=l8 lab=GND}
-C {gnd.sym} 160 70 0 0 {name=l9 lab=GND}
-C {vdd.sym} -1090 -220 0 0 {name=l1 lab=VDD}
-C {vdd.sym} -760 -20 0 0 {name=l3 lab=VDD}
-C {vdd.sym} -400 -60 0 0 {name=l4 lab=VDD}
-C {vdd.sym} -100 -40 0 0 {name=l5 lab=VDD}
-C {vdd.sym} 160 -60 0 0 {name=l6 lab=VDD}
-C {lab_pin.sym} -880 30 0 0 {name=p1 sig_type=std_logic lab=Vin}
-C {lab_pin.sym} -880 80 0 0 {name=p4 sig_type=std_logic lab=Vin_neg}
-C {sky130_fd_pr/corner.sym} -910 -330 0 0 {name=CORNER only_toplevel=false corner=tt}
-C {code_shown.sym} -740 -340 0 0 {name=spice only_toplevel=false value=".tran 0.1u 100u
+color="4 15"
+node="vpre1
+vpost"}
+B 2 -60 260 740 660 {flags=graph
+y1=170000
+y2=730000
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=0
+x2=0.0002
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+dataset=-1
+unitx=1
+logx=0
+logy=0
+hilight_wave=1
+color=4
+node="\\"memristancia;x1.be x1.te - i(v.x1.vmeas) /\\""}
+N -50 -10 10 -10 {lab=vpost}
+N -50 10 10 10 {lab=nvpost}
+N -50 30 -20 30 {lab=#net1}
+N -20 30 -20 90 {lab=#net1}
+N 140 0 170 0 {lab=#net2}
+N -530 -95 -530 -65 {lab=Vdd}
+N -530 65 -530 85 {lab=GND}
+N 170 -0 210 -0 {lab=#net2}
+N 210 -5 210 -0 {lab=#net2}
+N -470 -10 -350 -10 {lab=vpre1}
+N -470 10 -350 10 {lab=nvpre1}
+N -775 -10 -775 -0 {lab=#net3}
+N -775 0 -600 0 {lab=#net3}
+N -775 -90 -775 -70 {lab=Vdd}
+C {libs/snn_analog/stdp/sch/stdp.sym} -200 30 0 0 {name=x1}
+C {libs/snn_analog/lif/sch/neurona.sym} 10 20 0 1 {name=x3}
+C {vsource.sym} -935 -130 0 0 {name=V1 value=1.8 savecurrent=false}
+C {gnd.sym} -935 -100 0 0 {name=l2 lab=GND}
+C {gnd.sym} -190 110 0 0 {name=l8 lab=GND}
+C {gnd.sym} 70 60 0 0 {name=l9 lab=GND}
+C {vdd.sym} -935 -160 0 0 {name=l1 lab=VDD}
+C {vdd.sym} -190 -50 0 0 {name=l5 lab=VDD}
+C {vdd.sym} 70 -70 0 0 {name=l6 lab=VDD}
+C {sky130_fd_pr/corner.sym} -915 -350 0 0 {name=CORNER only_toplevel=false corner=tt}
+C {code_shown.sym} -755 -345 0 0 {name=spice only_toplevel=false value=".tran 0.1u 200u
 .control
  save all
  run
  write tb_stdp.raw
 .endc"}
-C {gnd.sym} -400 70 0 0 {name=l10 lab=GND}
-C {res.sym} -590 70 1 0 {name=R2
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {res.sym} -590 100 1 0 {name=R3
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {res.sym} -590 40 1 0 {name=R1
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {gnd.sym} -480 50 0 0 {name=l13 lab=GND}
-C {gnd.sym} -510 80 0 0 {name=l14 lab=GND}
-C {gnd.sym} -540 120 0 0 {name=l15 lab=GND}
+C {devices/code_shown.sym} -477.5 -362.5 0 0 {name=MODELS2
+only_toplevel=true
+format="tcleval( @value )"
+value="
+*MADE BY JORGE ALEJANDRO JUAREZ LORA IPN
+
+.subckt rram_v0 TE BE
+	N1 TE BE rram_v0_model  
+.ends rram_v0
+.model rram_v0_model rram_v0_va
+.control
+	pre_osdi /foss/designs/libs/snn_analog/stdp/sch/memristor/rram_v0.osdi
+.endc
+"
+spice_ignore=false}
+C {lab_pin.sym} -10 -10 0 0 {name=p7 sig_type=std_logic lab=vpost}
+C {lab_pin.sym} -20 10 0 0 {name=p8 sig_type=std_logic lab=nvpost}
+C {devices/launcher.sym} 255 135 0 0 {name=h17 
+descr="Load waves" 
+tclcommand="
+xschem raw_read $netlist_dir/[file tail [file rootname [xschem get current_name]]].raw tran
+"
+}
+C {lab_pin.sym} -530 -95 0 0 {name=p12 sig_type=std_logic lab=Vdd}
+C {gnd.sym} -530 85 0 0 {name=l17 lab=GND}
+C {lab_pin.sym} -395 -10 1 0 {name=p13 sig_type=std_logic lab=vpre1}
+C {lab_pin.sym} -395 10 3 0 {name=p14 sig_type=std_logic lab=nvpre1}
+C {libs/snn_analog/lif/sch/neurona.sym} -470 20 0 0 {name=x6}
+C {isource.sym} -775 -40 0 0 {name=I0 value="PWL( 0 280n 99u 280n 100u 0)"}
+C {lab_pin.sym} -775 -90 0 0 {name=p1 sig_type=std_logic lab=Vdd}
+C {isource.sym} 210 -35 0 0 {name=I1 value="PWL(0 0 99u 0 100u 280n)"}
+C {vdd.sym} 210 -65 0 0 {name=l3 lab=VDD}
+C {ammeter.sym} -20 120 0 0 {name=Vmeas savecurrent=true spice_ignore=0}
+C {gnd.sym} -20 150 0 0 {name=l4 lab=GND}

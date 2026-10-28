@@ -19,7 +19,7 @@ N -0 -190 70 -190 {lab=#net2}
 N 70 -260 70 -190 {lab=#net2}
 N 110 -350 110 -320 {lab=vdd}
 N -160 20 -160 140 {lab=be}
-N 140 20 140 140 {lab=te}
+N 140 20 140 140 {lab=#net3}
 N -160 -90 -160 -40 {lab=#net2}
 N -160 -90 140 -90 {lab=#net2}
 N 140 -90 140 -40 {lab=#net2}
@@ -30,20 +30,22 @@ N -0 -130 0 -90 {lab=#net2}
 N -0 250 -0 330 {lab=vss}
 N -160 170 -160 200 {lab=vss}
 N 140 170 140 200 {lab=vss}
-N -160 -10 140 -10 {lab=vss}
 N 220 -170 320 -170 {lab=vdd}
 N 320 -320 320 -170 {lab=vdd}
 N 220 -320 320 -320 {lab=vdd}
 N 180 170 220 170 {lab=vpre}
 N 180 -10 220 -10 {lab=nvpost}
 N -160 90 -40 90 {lab=be}
-N 20 90 140 90 {lab=te}
 N -260 -10 -200 -10 {lab=nvpre}
 N -260 170 -200 170 {lab=vpost}
 N 220 -140 220 -110 {lab=i_post}
 N 220 -110 250 -110 {lab=i_post}
+N 20 90 40 90 {lab=te}
+N 100 90 140 90 {lab=#net3}
+N -160 -10 -80 -10 {lab=vdd}
+N 50 -10 140 -10 {lab=vdd}
 C {sky130_fd_pr/nfet_01v8.sym} -180 170 0 0 {name=M1
-W=1
+W=0.5
 L=0.15
 nf=1 
 mult=1
@@ -57,7 +59,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 160 170 0 1 {name=M2
-W=1
+W=0.5
 L=0.15
 nf=1 
 mult=1
@@ -113,7 +115,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 200 -260 0 0 {name=M6
-W=1
+W=0.5
 L=0.15
 nf=1
 mult=1
@@ -127,7 +129,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 200 -170 0 0 {name=M7
-W=1
+W=0.5
 L=0.15
 nf=1
 mult=1
@@ -141,7 +143,6 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {iopin.sym} -350 -390 0 1 {name=p1 lab=vdd}
-C {lab_pin.sym} 0 -10 1 0 {name=p4 sig_type=std_logic lab=vss}
 C {iopin.sym} -350 -350 0 1 {name=p6 lab=vss}
 C {lab_pin.sym} -350 -350 2 0 {name=p7 sig_type=std_logic lab=vss}
 C {lab_pin.sym} -350 -390 2 0 {name=p8 sig_type=std_logic lab=vdd}
@@ -167,7 +168,10 @@ C {iopin.sym} -350 -310 0 1 {name=p2 lab=i_post}
 C {lab_pin.sym} -350 -310 2 0 {name=p10 sig_type=std_logic lab=i_post}
 C {lab_pin.sym} 250 -110 2 0 {name=p21 sig_type=std_logic lab=i_post}
 C {devices/code_shown.sym} -230 -395 0 0 {name=s1 only_toplevel=false value="
-.save v(te) v(be) i(vmr)
+.save v(te) v(be) i(Vmeas)
 "}
 C {devices/lab_pin.sym} -80 90 3 0 {name=p23 sig_type=std_logic lab=be}
-C {devices/lab_pin.sym} 50 90 3 0 {name=p24 sig_type=std_logic lab=te}
+C {devices/lab_pin.sym} 30 90 3 0 {name=p24 sig_type=std_logic lab=te}
+C {ammeter.sym} 70 90 3 1 {name=Vmeas savecurrent=true spice_ignore=0}
+C {lab_pin.sym} -80 -10 2 0 {name=p4 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 50 -10 2 1 {name=p25 sig_type=std_logic lab=vdd}
