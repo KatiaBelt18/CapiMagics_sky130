@@ -68,12 +68,12 @@
       "cells": {
         "x1": {
           "hide_name": 0,
-          "type": "neurona_lvs",
+          "type": "neurona",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/foss/designs/libs/snn_analog/macros/layer_input/layer_input.v:33.17-39.6"
+            "src": "/foss/designs/libs/snn_analog/macros/layer_input/layer_input.v:33.13-39.6"
           },
           "port_directions": {
             "Iin": "input",
@@ -92,12 +92,12 @@
         },
         "x2": {
           "hide_name": 0,
-          "type": "neurona_lvs",
+          "type": "neurona",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/foss/designs/libs/snn_analog/macros/layer_input/layer_input.v:41.17-47.6"
+            "src": "/foss/designs/libs/snn_analog/macros/layer_input/layer_input.v:41.13-47.6"
           },
           "port_directions": {
             "Iin": "input",
@@ -116,12 +116,12 @@
         },
         "x3": {
           "hide_name": 0,
-          "type": "neurona_lvs",
+          "type": "neurona",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/foss/designs/libs/snn_analog/macros/layer_input/layer_input.v:49.17-55.6"
+            "src": "/foss/designs/libs/snn_analog/macros/layer_input/layer_input.v:49.13-55.6"
           },
           "port_directions": {
             "Iin": "input",
@@ -140,12 +140,12 @@
         },
         "x4": {
           "hide_name": 0,
-          "type": "neurona_lvs",
+          "type": "neurona",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/foss/designs/libs/snn_analog/macros/layer_input/layer_input.v:57.17-63.6"
+            "src": "/foss/designs/libs/snn_analog/macros/layer_input/layer_input.v:57.13-63.6"
           },
           "port_directions": {
             "Iin": "input",

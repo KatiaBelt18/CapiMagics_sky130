@@ -56,22 +56,22 @@ Circuit 1: m1                              |Circuit 2: m1
 ---------------------------------------------------------------------------------------
 Net: a_28_n50#                             |Net: a_28_n50#                             
   sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
-                                           |  c/top = 3                                
-                                           |  c/bottom = 1                             
+                                           |  c/bottom = 3                             
+                                           |  c/top = 1                                
                                            |                                           
 Net: a_n106_n50#                           |Net: a_n106_n50#                           
   sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
-                                           |  c/top = 4                                
+                                           |  c/top = 3                                
+                                           |  c/bottom = 1                             
                                            |                                           
 Net: a_n33_n246#                           |Net: a_n33_n246#                           
   sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
-                                           |  c/bottom = 2                             
-                                           |  c/top = 2                                
+                                           |  c/top = 4                                
                                            |                                           
 Net: w_n366_n485#                          |Net: w_n366_n485#                          
   sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
-                                           |  c/bottom = 3                             
-                                           |  c/top = 1                                
+                                           |  c/bottom = 2                             
+                                           |  c/top = 2                                
                                            |                                           
 (no matching net)                          |Net: VSUBS                                 
                                            |  c/bottom = 4                             
@@ -182,8 +182,8 @@ Circuit 1: m6                              |Circuit 2: m6
 ---------------------------------------------------------------------------------------
 Net: a_28_n50#                             |Net: a_28_n50#                             
   sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
-                                           |  c/bottom = 3                             
-                                           |  c/top = 1                                
+                                           |  c/top = 3                                
+                                           |  c/bottom = 1                             
                                            |                                           
 Net: a_n106_n50#                           |Net: a_n106_n50#                           
   sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
@@ -192,8 +192,8 @@ Net: a_n106_n50#                           |Net: a_n106_n50#
                                            |                                           
 Net: a_n33_n246#                           |Net: a_n33_n246#                           
   sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
-                                           |  c/top = 3                                
-                                           |  c/bottom = 1                             
+                                           |  c/bottom = 3                             
+                                           |  c/top = 1                                
                                            |                                           
 Net: w_n366_n485#                          |Net: w_n366_n485#                          
   sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
@@ -264,8 +264,8 @@ Circuit 1: m4                              |Circuit 2: m4
 ---------------------------------------------------------------------------------------
 Net: a_28_n50#                             |Net: a_28_n50#                             
   sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-                                           |  c/bottom = 2                             
-                                           |  c/top = 1                                
+                                           |  c/top = 2                                
+                                           |  c/bottom = 1                             
                                            |                                           
 Net: a_n33_n246#                           |Net: a_n33_n246#                           
   sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
@@ -273,8 +273,8 @@ Net: a_n33_n246#                           |Net: a_n33_n246#
                                            |                                           
 Net: a_n106_n50#                           |Net: a_n106_n50#                           
   sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-                                           |  c/top = 2                                
-                                           |  c/bottom = 1                             
+                                           |  c/bottom = 2                             
+                                           |  c/top = 1                                
                                            |                                           
 Net: a_n320_n439#                          |Net: a_n320_n439#                          
   sky130_fd_pr__nfet_01v8/4 = 1            |  sky130_fd_pr__nfet_01v8/4 = 1            
@@ -326,8 +326,8 @@ Circuit 1: m2                              |Circuit 2: m2
 ---------------------------------------------------------------------------------------
 Net: a_28_n50#                             |Net: a_28_n50#                             
   sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-                                           |  c/bottom = 2                             
-                                           |  c/top = 1                                
+                                           |  c/top = 2                                
+                                           |  c/bottom = 1                             
                                            |                                           
 Net: a_n33_n246#                           |Net: a_n33_n246#                           
   sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
@@ -335,8 +335,8 @@ Net: a_n33_n246#                           |Net: a_n33_n246#
                                            |                                           
 Net: a_n106_n50#                           |Net: a_n106_n50#                           
   sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-                                           |  c/top = 2                                
-                                           |  c/bottom = 1                             
+                                           |  c/bottom = 2                             
+                                           |  c/top = 1                                
                                            |                                           
 Net: a_n320_n439#                          |Net: a_n320_n439#                          
   sky130_fd_pr__nfet_01v8/4 = 1            |  sky130_fd_pr__nfet_01v8/4 = 1            
@@ -388,8 +388,8 @@ Circuit 1: m7                              |Circuit 2: m7
 ---------------------------------------------------------------------------------------
 Net: a_28_n50#                             |Net: a_28_n50#                             
   sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-                                           |  c/bottom = 2                             
-                                           |  c/top = 1                                
+                                           |  c/bottom = 1                             
+                                           |  c/top = 2                                
                                            |                                           
 Net: a_n33_n246#                           |Net: a_n33_n246#                           
   sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
@@ -397,8 +397,8 @@ Net: a_n33_n246#                           |Net: a_n33_n246#
                                            |                                           
 Net: a_n106_n50#                           |Net: a_n106_n50#                           
   sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-                                           |  c/top = 2                                
-                                           |  c/bottom = 1                             
+                                           |  c/bottom = 2                             
+                                           |  c/top = 1                                
                                            |                                           
 Net: a_n320_n439#                          |Net: a_n320_n439#                          
   sky130_fd_pr__nfet_01v8/4 = 1            |  sky130_fd_pr__nfet_01v8/4 = 1            
@@ -450,8 +450,8 @@ Circuit 1: m5                              |Circuit 2: m5
 ---------------------------------------------------------------------------------------
 Net: a_2000_n300#                          |Net: a_2000_n300#                          
   sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-                                           |  c/bottom = 2                             
-                                           |  c/top = 1                                
+                                           |  c/bottom = 1                             
+                                           |  c/top = 2                                
                                            |                                           
 Net: a_n2000_n496#                         |Net: a_n2000_n496#                         
   sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
@@ -459,8 +459,8 @@ Net: a_n2000_n496#                         |Net: a_n2000_n496#
                                            |                                           
 Net: a_n2078_n300#                         |Net: a_n2078_n300#                         
   sky130_fd_pr__nfet_01v8/(1|3) = 1        |  sky130_fd_pr__nfet_01v8/(1|3) = 1        
-                                           |  c/top = 2                                
-                                           |  c/bottom = 1                             
+                                           |  c/bottom = 2                             
+                                           |  c/top = 1                                
                                            |                                           
 Net: a_n2292_n689#                         |Net: a_n2292_n689#                         
   sky130_fd_pr__nfet_01v8/4 = 1            |  sky130_fd_pr__nfet_01v8/4 = 1            
@@ -517,13 +517,13 @@ Net: a_28_n50#                             |Net: a_28_n50#
                                            |                                           
 Net: a_n106_n50#                           |Net: a_n106_n50#                           
   sky130_fd_pr__pfet_01v8/(1|3) = 1        |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
-                                           |  c/bottom = 3                             
-                                           |  c/top = 1                                
+                                           |  c/top = 3                                
+                                           |  c/bottom = 1                             
                                            |                                           
 Net: a_n33_n246#                           |Net: a_n33_n246#                           
   sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
-                                           |  c/top = 3                                
-                                           |  c/bottom = 1                             
+                                           |  c/bottom = 3                             
+                                           |  c/top = 1                                
                                            |                                           
 Net: w_n366_n485#                          |Net: w_n366_n485#                          
   sky130_fd_pr__pfet_01v8/4 = 1            |  sky130_fd_pr__pfet_01v8/4 = 1            
@@ -589,19 +589,25 @@ sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)
 Number of devices: 8                       |Number of devices: 8                       
 Number of nets: 6                          |Number of nets: 6                          
 ---------------------------------------------------------------------------------------
-Netlists match uniquely.
+Netlists match uniquely with property errors.
+cap_0/sky130_fd_pr__cap_mim_m3_1:0 vs. sky130_fd_pr__cap_mim_m3_1:C1:
+ w circuit1: 16.2   circuit2: 15   (delta=7.69%, cutoff=1%)
+ l circuit1: 6.2   circuit2: 5   (delta=21.4%, cutoff=1%)
 
 Subcircuit pins:
 Circuit 1: neurona                         |Circuit 2: neurona                         
 -------------------------------------------|-------------------------------------------
 spike                                      |spike                                      
-Vss                                        |Vss                                        
+vss                                        |vss                                        
 Iin                                        |Iin                                        
 spike_neg                                  |spike_neg                                  
-Vdd                                        |Vdd                                        
+vdd                                        |vdd                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes neurona and neurona are equivalent.
 
 Final result: Circuits match uniquely.
-.
+Property errors were found.
+
+The following cells had property errors:
+ neurona

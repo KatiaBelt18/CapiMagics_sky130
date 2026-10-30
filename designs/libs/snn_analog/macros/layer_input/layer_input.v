@@ -30,7 +30,7 @@ module layer_input (
     input  Iext4;  
     output nvout_4;
 
-    neurona_lvs x1 (
+    neurona x1 (
         .vdd       (vdd),
         .vss       (vss),
         .Iin       (Iext1),
@@ -38,7 +38,7 @@ module layer_input (
         .spike_neg (nvout_1)
     );
 
-    neurona_lvs x2 (
+    neurona x2 (
         .vdd       (vdd),
         .vss       (vss),
         .Iin       (Iext2),
@@ -46,7 +46,7 @@ module layer_input (
         .spike_neg (nvout_2)
     );
 
-    neurona_lvs x3 (
+    neurona x3 (
         .vdd       (vdd),
         .vss       (vss),
         .Iin       (Iext3),
@@ -54,7 +54,7 @@ module layer_input (
         .spike_neg (nvout_3)
     );
 
-    neurona_lvs x4 (
+    neurona x4 (
         .vdd       (vdd),
         .vss       (vss),
         .Iin       (Iext4),

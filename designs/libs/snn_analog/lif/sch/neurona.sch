@@ -29,18 +29,18 @@ N 690 -260 690 -200 {lab=Iin}
 N 730 -230 880 -230 {lab=spike_neg}
 N 880 -410 880 -350 {lab=spike_neg}
 N 820 -380 880 -380 {lab=spike_neg}
-N 730 -290 730 -260 {lab=Vdd}
-N 730 -200 730 -170 {lab=Vss}
-N 920 -290 920 -260 {lab=Vdd}
-N 920 -200 920 -170 {lab=Vss}
-N 560 -170 920 -170 {lab=Vss}
-N 560 -200 560 -170 {lab=Vss}
+N 730 -290 730 -260 {lab=vdd}
+N 730 -200 730 -170 {lab=vss}
+N 920 -290 920 -260 {lab=vdd}
+N 920 -200 920 -170 {lab=vss}
+N 560 -170 920 -170 {lab=vss}
+N 560 -200 560 -170 {lab=vss}
 N 920 -230 1030 -230 {lab=spike/reset}
 N 510 -200 520 -200 {lab=spike/reset}
 N 560 -230 690 -230 {lab=Iin}
 N 820 -380 820 -230 {lab=spike_neg}
-N 920 -350 920 -320 {lab=Vss}
-N 920 -440 920 -410 {lab=Vdd}
+N 920 -350 920 -320 {lab=vss}
+N 920 -440 920 -410 {lab=vdd}
 N 510 -200 510 -130 {lab=spike/reset}
 N 1030 -230 1040 -230 {lab=spike/reset}
 N 510 -130 630 -130 {lab=spike/reset}
@@ -49,27 +49,27 @@ N 1040 -230 1040 -150 {lab=spike/reset}
 N 860 -150 1040 -150 {lab=spike/reset}
 N 860 -150 860 -130 {lab=spike/reset}
 N 630 -130 860 -130 {lab=spike/reset}
-N 730 -170 730 -150 {lab=Vss}
+N 730 -170 730 -150 {lab=vss}
 N 560 -280 560 -230 {lab=Iin}
-C {lab_pin.sym} 730 -290 2 0 {name=p1 sig_type=std_logic lab=Vdd}
-C {lab_pin.sym} 920 -290 2 0 {name=p2 sig_type=std_logic lab=Vdd}
-C {lab_pin.sym} 920 -440 2 0 {name=p3 sig_type=std_logic lab=Vdd}
+C {lab_pin.sym} 730 -290 2 0 {name=p1 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 920 -290 2 0 {name=p2 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 920 -440 2 0 {name=p3 sig_type=std_logic lab=vdd}
 C {lab_pin.sym} 1010 -380 2 0 {name=p4 sig_type=std_logic lab=spike}
 C {lab_pin.sym} 860 -140 0 1 {name=p9 sig_type=std_logic lab=spike/reset}
 C {lab_pin.sym} 850 -230 1 0 {name=p8 sig_type=std_logic lab=spike_neg}
 C {lab_pin.sym} 560 -280 0 0 {name=p5 sig_type=std_logic lab=Iin}
-C {iopin.sym} 660 -490 2 0 {name=p10 lab=Vdd}
-C {iopin.sym} 660 -460 2 0 {name=p11 lab=Vss}
+C {iopin.sym} 660 -490 2 0 {name=p10 lab=vdd}
+C {iopin.sym} 660 -460 2 0 {name=p11 lab=vss}
 C {ipin.sym} 660 -520 0 0 {name=p12 lab=Iin}
 C {opin.sym} 660 -430 2 0 {name=p13 lab=spike}
 C {opin.sym} 660 -400 2 0 {name=p14 lab=spike_neg}
-C {lab_pin.sym} 660 -490 2 0 {name=p15 sig_type=std_logic lab=Vdd}
-C {lab_pin.sym} 660 -460 2 0 {name=p16 sig_type=std_logic lab=Vss}
-C {lab_pin.sym} 730 -150 0 0 {name=p17 sig_type=std_logic lab=Vss}
+C {lab_pin.sym} 660 -490 2 0 {name=p15 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 660 -460 2 0 {name=p16 sig_type=std_logic lab=vss}
+C {lab_pin.sym} 730 -150 0 0 {name=p17 sig_type=std_logic lab=vss}
 C {lab_pin.sym} 660 -400 2 0 {name=p19 sig_type=std_logic lab=spike_neg}
 C {lab_pin.sym} 660 -430 2 0 {name=p20 sig_type=std_logic lab=spike}
 C {lab_pin.sym} 660 -520 0 1 {name=p6 sig_type=std_logic lab=Iin}
-C {lab_pin.sym} 920 -320 0 0 {name=p7 sig_type=std_logic lab=Vss}
+C {lab_pin.sym} 920 -320 0 0 {name=p7 sig_type=std_logic lab=vss}
 C {sky130_fd_pr/nfet_01v8.sym} 710 -200 0 0 {name=M2
 W=0.5
 L=0.28
@@ -168,4 +168,4 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/cap_mim_m3_1.sym} 650 -200 0 0 {name=C1 model=cap_mim_m3_1 W=15 L=5 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 650 -200 0 0 {name=C1 model=cap_mim_m3_1 W=16.2 L=6.2 MF=1 spiceprefix=X}

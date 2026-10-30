@@ -1,11 +1,11 @@
-* NGSPICE file created from layer_output.ext - technology: gf180mcuD
+* NGSPICE file created from layer_output.ext - technology: sky130A
 
-* Black-box entry subcircuit for neurona_lvs abstract view
-.subckt neurona_lvs vss vdd Iin spike_neg spike
+* Black-box entry subcircuit for neurona abstract view
+.subckt neurona vdd vss Iin spike_neg spike
 .ends
 
 .subckt layer_output Iext1 Iext2 nvout_1 nvout_2 vdd vout_1 vout_2 vss
-Xx1 vss vdd Iext1 nvout_1 vout_1 neurona_lvs
-Xx2 vss vdd Iext2 nvout_2 vout_2 neurona_lvs
+Xx1 vdd vss Iext1 nvout_1 vout_1 neurona
+Xx2 vdd vss Iext2 nvout_2 vout_2 neurona
 .ends
 

@@ -1,2 +1,2 @@
-librelane layer_output/config.yaml --pdk gf180mcuD --run-tag test --pdk-root /foss/pdks 
+librelane layer_output/config.yaml --pdk sky130A --run-tag test --pdk-root /foss/pdks 
 

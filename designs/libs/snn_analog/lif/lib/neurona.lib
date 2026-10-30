@@ -1,0 +1,41 @@
+library (neurona) {
+  delay_model : "table_lookup" ;
+  slew_derate_from_library : 1.0 ;
+  input_threshold_pct_rise : 50.0 ;
+  input_threshold_pct_fall : 50.0 ;
+  output_threshold_pct_rise : 50.0 ;
+  output_threshold_pct_fall : 50.0 ;
+  slew_lower_threshold_pct_rise : 20.0 ;
+  slew_lower_threshold_pct_fall : 20.0 ;
+  slew_upper_threshold_pct_rise : 80.0 ;
+  slew_upper_threshold_pct_fall : 80.0 ;
+  default_leakage_power_density : 0.0 ;
+  default_cell_leakage_power : 0.0 ;
+
+  cell (neurona) {
+    area : 1665.80;
+    interface_timing : true ;
+    pin (vdd) {
+      direction : inout;
+      pg_type : primary_power;
+    }
+    pin (vss) {
+      direction : inout;
+      pg_type : primary_ground;
+    }
+    pin (Iin) {
+      direction : input;
+      capacitance : 0.001;
+    }
+    pin (spike) {
+      direction : output;
+      capacitance : 0.001;
+    }
+    pin (spike_neg) {
+      direction : output;
+      capacitance : 0.001;
+    }
+  }
+}
+
+

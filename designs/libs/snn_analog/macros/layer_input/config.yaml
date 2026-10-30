@@ -9,17 +9,13 @@ VERILOG_FILES:
 
 FP_PIN_ORDER_CFG: dir::pin.cfg
 
-# # --- Absolute SDC Paths ---
-# PNR_SDC_FILE: /foss/designs/libs/snn_analog/lif/neurona_lvs.sdc
-# SIGNOFF_SDC_FILE: /foss/designs/libs/snn_analog/lif/neurona_lvs.sdc
-
 # --- Floorplanning ---
 FP_SIZING: absolute 
 DIE_AREA:
   - 0
   - 0
-  - 100
-  - 190 #400
+  - 70 #100
+  - 180 #200
 
 # --- Power Grid (PDN) ---
 VDD_NETS:
@@ -27,28 +23,28 @@ VDD_NETS:
 GND_NETS:
   - vss
 
-#TOP_MARGIN_MULT: 2
-#BOTTOM_MARGIN_MULT: 2
-#LEFT_MARGIN_MULT: 2
-#RIGHT_MARGIN_MULT: 2
-
-IO_PIN_ORDER_CFG: dir::pin.cfg
+PAD_LIBS: {} #para ignorar los pads de la librería de pads del PDK y usar los pads de la macro, se necesita ignoras las librerias de 5V0
+# IO_PIN_ORDER_CFG: dir::pin.cfg
+# --- Power Grid (PDN) ajustado a Met3 / Met4 ---
+PDN_VERTICAL_LAYER: met3
+PDN_HORIZONTAL_LAYER: met4
 
 PDN_ENABLE_RAILS: false
 PDN_MULTILAYER: true
-PDN_VWIDTH: 1.2
-PDN_HWIDTH: 1.2
+PDN_VWIDTH: 1.6
+PDN_HWIDTH: 1.6
 PDN_VSPACING: 2
 PDN_HSPACING: 2
-PDN_VPITCH: 90
+PDN_VPITCH: 40
 PDN_HPITCH: 40
 PDN_CORE_RING: true
-PDN_CORE_RING_VWIDTH: 1.5
-PDN_CORE_RING_HWIDTH: 1.5
-PDN_CORE_RING_VSPACING: 1.5
-PDN_CORE_RING_HSPACING: 1.5
-PDN_VOFFSET: 20.0
-PDN_HOFFSET: 37.0
+PDN_CORE_RING_VWIDTH: 1.6
+PDN_CORE_RING_HWIDTH: 1.6
+PDN_CORE_RING_VSPACING: 1.6
+PDN_CORE_RING_HSPACING: 1.6
+PDN_VOFFSET: 30.0 #25
+PDN_HOFFSET: 10.0
+
 # Connect Macro Power/Ground Pins to Global Net
 PDN_MACRO_CONNECTIONS:
   - "x1 vdd vss vdd vss"
@@ -67,13 +63,14 @@ RUN_HEURISTIC_DIODE_INSERTION: false
 RUN_FILL_INSERTION: false
 RUN_TAP_ENDCAP_INSERTION: false
 ERROR_ON_PDN_VIOLATIONS: false
-#GRT_MACRO_EXTENSION: 1.3
+GRT_MACRO_EXTENSION: 0.2
+
 
 # --- Direct LEF/GDS Blackbox Include ---
 EXTRA_LEFS:
-  - /foss/designs/libs/snn_analog/lif/neurona_lvs.lef
-EXTRA_GDS:
-  - /foss/designs/libs/snn_analog/lif/neurona_lvs.gds
+  - /foss/designs/libs/snn_analog/lif/lef/neurona.lef
+EXTRA_GDS: 
+  - /foss/designs/libs/snn_analog/lif/gds/neurona.gds
 
 # --- Routing (GF180MCU) ---
 PRIMARY_GDSII_STREAMOUT_TOOL: klayout
@@ -83,70 +80,56 @@ KLAYOUT_FILLER_OPTIONS:
   Metal2_ignore_active: true
 MAGIC_EXT_UNIQUE: notopports
 
-
-#MAGIC_GDS_FLATGLOB:
-#- "*_CDNS_*"
-#- "*$$*"
-#- "M1_N*"
-#- "M1_P*"
-#- "M2_M1*"
-#- "M3_M2*"
-#- "nmos_5p0*"
-#- "nmos_1p2*"
-#- "pmos_5p0*"
-#- "pmos_1p2*"
-#- "via1_*"
-#- "ypass_gate*"
-#- "G_ring_*"
-#- "dcap_103*"
-#- "din_*"
-#- "mux821_*"
-#- "rdummy_*"
-#- "pmoscap_*"
-#- "xdec_*"
-#- "ypredec*"
-#- "xpredec*"
-#- "prexdec_*"
-#- "xdec8_*"
-#- "xdec16_*"
-#- "xdec32_*"
-#- "sa_*"
-RT_MIN_LAYER: Metal3
-RT_MAX_LAYER: Metal5
+RT_MIN_LAYER: met2
+RT_MAX_LAYER: met4
 ROUTING_CORES: 12
 GRT_ALLOW_CONGESTION: true
+
+IO_PIN_H_LAYER: met2
+IO_PIN_V_LAYER: met2
 
 IO_PIN_H_LENGTH: 2.5
 IO_PIN_V_LENGTH: 2.5
 IO_PIN_V_THICKNESS_MULT: 3
 IO_PIN_H_THICKNESS_MULT: 3
 
+NON_DEFAULT_RULES:
+  ndr_safe_spacing:
+    width:
+      - met3
+      - "0.3"
+    spacing:
+      - met3
+      - "1.1"
+
+DRT_ASSIGN_NDR:
+  ".*": ndr_safe_spacing
+
 # --- Analog Macro Instantiation ---
 MACROS:
-  neurona_lvs:
+  neurona:
 
     gds:
-      - /foss/designs/libs/snn_analog/lif/neurona_lvs.gds
+      - /foss/designs/libs/snn_analog/lif/gds/neurona.gds
     lef:
-      - /foss/designs/libs/snn_analog/lif/neurona_lvs.lef
-    
+      - /foss/designs/libs/snn_analog/lif/lef/neurona.lef
     spice:
-      - /foss/designs/libs/snn_analog/lif/neurona_lvs.spice
+      - /foss/designs/libs/snn_analog/lif/spice/neurona.spice
     vh:
-      - /foss/designs/libs/snn_analog/lif/neurona_lvs.v
+      - /foss/designs/libs/snn_analog/lif/verilog/neurona.v
     lib:
       "*":
-        - /foss/designs/libs/snn_analog/lif/neurona_lvs.lib
+        - /foss/designs/libs/snn_analog/lif/lib/neurona.lib
     instances:
       x4:
-        location: [20, 20] #30
+        location: [10, 10] #30
         orientation: N
       x3:
-        location: [20, 60] #130
+        location: [10, 50] #130
         orientation: N
       x2:
-        location: [20, 100] #230
+        location: [10, 90] #230
         orientation: N
       x1:
-        location: [20, 140] #330
+        location: [10, 130] #330
         orientation: N

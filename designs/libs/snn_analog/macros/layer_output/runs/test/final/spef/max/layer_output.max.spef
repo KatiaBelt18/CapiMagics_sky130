@@ -1,6 +1,6 @@
 *SPEF "ieee 1481-1999"
 *DESIGN "layer_output"
-*DATE "21:32:53 Friday September 18, 2026"
+*DATE "21:11:18 Friday October 30, 2026"
 *VENDOR "The OpenROAD Project"
 *PROGRAM "OpenROAD"
 *VERSION "26Q1-1024-gdcf36133a"
@@ -31,72 +31,74 @@ nvout_2 O
 vout_1 O
 vout_2 O
 
-*D_NET *1 0.00606331
+*D_NET *1 0.00433258
 *CONN
 *P Iext1 I
-*I *8:Iin I *D neurona_lvs
+*I *8:Iin I *D neurona
 *CAP
-1 Iext1 0.00303166
-2 *8:Iin 0.00303166
+1 Iext1 0.00208533
+2 *8:Iin 8.09556e-05
+3 *1:18 0.00216629
 *RES
-1 Iext1 *8:Iin 29.7609 
+1 Iext1 *1:18 49.9149 
+2 *1:18 *8:Iin 8.28187 
 *END
 
-*D_NET *2 0.00658967
+*D_NET *2 0.00356125
 *CONN
 *P Iext2 I
-*I *9:Iin I *D neurona_lvs
+*I *9:Iin I *D neurona
 *CAP
-1 Iext2 0.00329483
-2 *9:Iin 0.00329483
+1 Iext2 0.00178063
+2 *9:Iin 0.00178063
 *RES
-1 Iext2 *9:Iin 31.8409 
+1 Iext2 *9:Iin 47.8227 
 *END
 
-*D_NET *3 0.00530283
+*D_NET *3 0.0020594
 *CONN
 *P nvout_1 O
-*I *8:spike_neg I *D neurona_lvs
+*I *8:spike_neg I *D neurona
 *CAP
-1 nvout_1 0.0018789
-2 *8:spike_neg 0.0018789
-3 *8:spike_neg *8:spike 0.00154503
+1 nvout_1 0.0010297
+2 *8:spike_neg 0.0010297
 *RES
-1 nvout_1 *8:spike_neg 26.3437 
+1 nvout_1 *8:spike_neg 37.0814 
 *END
 
-*D_NET *4 0.00442269
+*D_NET *4 0.00566634
 *CONN
 *P nvout_2 O
-*I *9:spike_neg I *D neurona_lvs
+*I *9:spike_neg I *D neurona
 *CAP
-1 nvout_2 0.00190321
-2 *9:spike_neg 0.00190321
-3 *9:spike_neg *9:spike 0.000616261
+1 nvout_2 0.00280465
+2 *9:spike_neg 0
+3 *4:14 0.00280465
+4 *4:14 *9:spike 5.70444e-05
 *RES
-1 nvout_2 *9:spike_neg 23.2237 
+1 nvout_2 *4:14 37.147 
+2 *4:14 *9:spike_neg 15 
 *END
 
-*D_NET *6 0.00756243
+*D_NET *6 0.00270351
 *CONN
 *P vout_1 O
-*I *8:spike I *D neurona_lvs
+*I *8:spike I *D neurona
 *CAP
-1 vout_1 0.0030087
-2 *8:spike 0.0030087
-3 *8:spike_neg *8:spike 0.00154503
+1 vout_1 0.00135175
+2 *8:spike 0.00135175
 *RES
-1 vout_1 *8:spike 36.8849 
+1 vout_1 *8:spike 36.413 
 *END
 
-*D_NET *7 0.006996
+*D_NET *7 0.00217635
 *CONN
 *P vout_2 O
-*I *9:spike I *D neurona_lvs
+*I *9:spike I *D neurona
 *CAP
-1 vout_2 0.00318987
-2 *9:spike 0.00318987
-3 *9:spike_neg *9:spike 0.000616261
+1 vout_2 0.00105965
+2 *9:spike 0.00105965
+3 *4:14 *9:spike 5.70444e-05
 *RES
-1 vout_2 *9:spike 35.0129 
+1 vout_2 *9:spike 41.9812 
 *END

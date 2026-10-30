@@ -1,12 +1,12 @@
-** sch_path: /foss/designs/libs/snn_analog/lif/sch/lif/neurona.sch
-.subckt neurona Iin Vdd Vss spike spike_neg
-*.PININFO Vdd:B Vss:B Iin:I spike:O spike_neg:O
-XM2 spike_neg Iin Vss Vss sky130_fd_pr__nfet_01v8 L=0.28 W=0.5 nf=1
-XM1 spike_neg Iin Vdd Vdd sky130_fd_pr__pfet_01v8 L=0.28 W=0.5 nf=1
-XM3 spike/reset spike_neg Vdd Vdd sky130_fd_pr__pfet_01v8 L=0.28 W=0.5 nf=1
-XM4 spike/reset spike_neg Vss Vss sky130_fd_pr__nfet_01v8 L=0.28 W=0.5 nf=1
-XM5 Iin spike/reset Vss Vss sky130_fd_pr__nfet_01v8 L=20 W=3 nf=1
-XM6 spike spike_neg Vdd Vdd sky130_fd_pr__pfet_01v8 L=0.28 W=0.5 nf=1
-XM7 spike spike_neg Vss Vss sky130_fd_pr__nfet_01v8 L=0.28 W=0.5 nf=1
-XC1 Iin Vss sky130_fd_pr__cap_mim_m3_1 W=16.2 L=6.2
+** sch_path: /foss/designs/libs/snn_analog/lif/sch/neurona.sch
+.subckt neurona Iin vdd vss spike spike_neg
+*.PININFO vdd:B vss:B Iin:I spike:O spike_neg:O
+XM2 spike_neg Iin vss vss sky130_fd_pr__nfet_01v8 L=0.28 W=0.5 nf=1
+XM1 spike_neg Iin vdd vdd sky130_fd_pr__pfet_01v8 L=0.28 W=0.5 nf=1
+XM3 spike/reset spike_neg vdd vdd sky130_fd_pr__pfet_01v8 L=0.28 W=0.5 nf=1
+XM4 spike/reset spike_neg vss vss sky130_fd_pr__nfet_01v8 L=0.28 W=0.5 nf=1
+XM5 Iin spike/reset vss vss sky130_fd_pr__nfet_01v8 L=20 W=3 nf=1
+XM6 spike spike_neg vdd vdd sky130_fd_pr__pfet_01v8 L=0.28 W=0.5 nf=1
+XM7 spike spike_neg vss vss sky130_fd_pr__nfet_01v8 L=0.28 W=0.5 nf=1
+XC1 Iin vss sky130_fd_pr__cap_mim_m3_1 W=15 L=5
 .ends

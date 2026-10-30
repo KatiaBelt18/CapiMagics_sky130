@@ -24,16 +24,16 @@ module layer_input (Iext1,
  output vout_4;
 
 
- neurona_lvs x1 (.Iin(Iext1),
+ neurona x1 (.Iin(Iext1),
     .spike_neg(nvout_1),
     .spike(vout_1));
- neurona_lvs x2 (.Iin(Iext2),
+ neurona x2 (.Iin(Iext2),
     .spike_neg(nvout_2),
     .spike(vout_2));
- neurona_lvs x3 (.Iin(Iext3),
+ neurona x3 (.Iin(Iext3),
     .spike_neg(nvout_3),
     .spike(vout_3));
- neurona_lvs x4 (.Iin(Iext4),
+ neurona x4 (.Iin(Iext4),
     .spike_neg(nvout_4),
     .spike(vout_4));
 endmodule

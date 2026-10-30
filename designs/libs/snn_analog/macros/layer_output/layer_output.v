@@ -21,7 +21,7 @@ module layer_output (
     output nvout_2;   // salida de disparo negada neurona 2
 
     // --- Instancias de la macro 
-    neurona_lvs x1 (
+    neurona x1 (
         .vdd       (vdd),
         .vss       (vss),
         .Iin       (Iext1),
@@ -29,7 +29,7 @@ module layer_output (
         .spike_neg (nvout_1)
     );
 
-    neurona_lvs x2 (
+    neurona x2 (
         .vdd       (vdd),
         .vss       (vss),
         .Iin       (Iext2),

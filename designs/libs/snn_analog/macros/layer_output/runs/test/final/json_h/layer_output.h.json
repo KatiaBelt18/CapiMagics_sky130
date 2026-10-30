@@ -44,12 +44,12 @@
       "cells": {
         "x1": {
           "hide_name": 0,
-          "type": "neurona_lvs",
+          "type": "neurona",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/foss/designs/libs/snn_analog/macros/layer_output/layer_output.v:24.17-30.6"
+            "src": "/foss/designs/libs/snn_analog/macros/layer_output/layer_output.v:24.13-30.6"
           },
           "port_directions": {
             "Iin": "input",
@@ -68,12 +68,12 @@
         },
         "x2": {
           "hide_name": 0,
-          "type": "neurona_lvs",
+          "type": "neurona",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/foss/designs/libs/snn_analog/macros/layer_output/layer_output.v:32.17-38.6"
+            "src": "/foss/designs/libs/snn_analog/macros/layer_output/layer_output.v:32.13-38.6"
           },
           "port_directions": {
             "Iin": "input",

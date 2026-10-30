@@ -12,10 +12,10 @@ module layer_output (Iext1,
  output vout_2;
 
 
- neurona_lvs x1 (.Iin(Iext1),
+ neurona x1 (.Iin(Iext1),
     .spike_neg(nvout_1),
     .spike(vout_1));
- neurona_lvs x2 (.Iin(Iext2),
+ neurona x2 (.Iin(Iext2),
     .spike_neg(nvout_2),
     .spike(vout_2));
 endmodule

@@ -28,23 +28,23 @@ module layer_input (Iext1,
  inout vss;
 
 
- neurona_lvs x1 (.vss(vss),
-    .vdd(vdd),
+ neurona x1 (.vdd(vdd),
+    .vss(vss),
     .Iin(Iext1),
     .spike_neg(nvout_1),
     .spike(vout_1));
- neurona_lvs x2 (.vss(vss),
-    .vdd(vdd),
+ neurona x2 (.vdd(vdd),
+    .vss(vss),
     .Iin(Iext2),
     .spike_neg(nvout_2),
     .spike(vout_2));
- neurona_lvs x3 (.vss(vss),
-    .vdd(vdd),
+ neurona x3 (.vdd(vdd),
+    .vss(vss),
     .Iin(Iext3),
     .spike_neg(nvout_3),
     .spike(vout_3));
- neurona_lvs x4 (.vss(vss),
-    .vdd(vdd),
+ neurona x4 (.vdd(vdd),
+    .vss(vss),
     .Iin(Iext4),
     .spike_neg(nvout_4),
     .spike(vout_4));

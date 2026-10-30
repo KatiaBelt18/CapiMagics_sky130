@@ -16,13 +16,13 @@ module layer_output (Iext1,
  inout vss;
 
 
- neurona_lvs x1 (.vss(vss),
-    .vdd(vdd),
+ neurona x1 (.vdd(vdd),
+    .vss(vss),
     .Iin(Iext1),
     .spike_neg(nvout_1),
     .spike(vout_1));
- neurona_lvs x2 (.vss(vss),
-    .vdd(vdd),
+ neurona x2 (.vdd(vdd),
+    .vss(vss),
     .Iin(Iext2),
     .spike_neg(nvout_2),
     .spike(vout_2));
